@@ -21,6 +21,9 @@ public class TestaMetodo {
 		}
 		System.out.println(contaDaKatia.saldo);
 		System.out.println(contaDoMarco.saldo);
+		
+		contaDoMarco.titular = "Marco Antonio ";
+		System.out.println(contaDoMarco.titular);
 	}
 
 }
